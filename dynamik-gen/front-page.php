@@ -11,7 +11,7 @@ if( is_front_page() && dynamik_get_design_alt( 'dynamik_homepage_type' ) == 'sta
 {
 	get_header();
 	?>
-	<div id="home-hook-wrap" class="clearfix">
+	<div id="home-hook-wrap" class="clearfix test-class">
 		<?php do_action( 'dynamik_hook_home' ); ?>
 	</div><!-- end #home-hook-wrap -->
 	<?php
